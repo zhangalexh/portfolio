@@ -4,7 +4,7 @@ export const projects = [
     date: "Jan 2021",
     title: "Solo Dev",
     description:
-      "A short, quiet walking simulator made for Global Game Jam 2021. I made this game over the course of 2 days.",
+      "A short, quiet walking simulator made for Global Game Jam 2021 about finding your lost friend. I made this game solo over the course of 2 days.",
     image: "./pictures/foundafriend.png",
     link: "https://jelloboy.itch.io/found-a-friend"
   },
@@ -13,7 +13,7 @@ export const projects = [
     date: "Oct 2020",
     title: "Programmer",
     description:
-      "A short dating sim made for a Game Jam. I made this with my Egghouse team (As It Is) to take a break from our usual development and make something different.",
+      "A short, silly dating sim made for a Game Jam. I made this with my Egghouse team (As It Is) to take a break from our usual development and make something different.",
     image: "./pictures/moongame.png",
     link: "https://jelloboy.itch.io/moon-game"
   },
@@ -31,7 +31,7 @@ export const projects = [
     date: "Aug 2017 - Dec 2017",
     title: "Programmer, Artist",
     description:
-      "A 2D physics-based platformer I built in school with another programmer and a composer.",
+      "A 2D physics-based, skill-focused platformer I built in school with another programmer and a composer.",
     image: "./pictures/geometric.png",
     link: "https://jelloboy.itch.io/geometric"
   },
