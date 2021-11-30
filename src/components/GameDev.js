@@ -164,7 +164,7 @@ export default function GameDev() {
 
           <div className="flex flex-row w-full flex-wrap justify-center">
             {projects.map((project) => (
-              <div className="py-4 w-full sm:w-80 h-auto mx-4 sm:mx-8" >
+              <div className="py-4 w-full sm:w-60 xl:w-80 h-auto mx-4 sm:mx-8" >
                 {project.link !== "" ? (
                   <h1 className="text-4x1 underline font-medium text-red">
                     <a href={project.link} target="_blank" rel="noopener noreferrer">
