@@ -18,7 +18,7 @@ export default function Intro() {
               That picture there is me, in my happy place.
             </p>
             <br />
-            <p>
+            <p className= "font-bold">
               (THIS WEBSITE IS STILL UNDER CONSTRUCTION. I APPRECIATE YOUR PATIENCE!!!)
             </p>
           </div>
