@@ -15,9 +15,6 @@ export default function NavBar() {
             <DownloadIcon className="w-4 h-4" />
           </a>
           <nav className="mt-24 sm:mt-48 w-full flex flex-col items-end">
-            <a href="#intro" className="py-2 hover:text-white">
-              Intro
-            </a>
             <a href="#gamedev" className="py-2 hover:text-white">
               Game Dev
             </a>
