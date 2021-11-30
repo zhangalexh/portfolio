@@ -1,4 +1,4 @@
-import { CalculatorIcon, CodeIcon, CogIcon } from "@heroicons/react/solid";
+import { CalculatorIcon, CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects, skills, smallskills, } from "../data";
 
