@@ -1,4 +1,4 @@
-import { CalculatorIcon, CodeIcon } from "@heroicons/react/solid";
+import { ServerIcon, CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects, skills, smallskills, } from "../data";
 
@@ -28,7 +28,7 @@ export default function GameDev() {
             <div key={skill} className="p-2 sm:w-1/2 w-full">
               <div className="bg-red rounded flex p-4 h-full items-center">
                 {skill.type === "language" && <CodeIcon className="text-white w-6 h-6 flex-shrink-0 mr-4" />}
-                {skill.type === "tool" && <CalculatorIcon className="text-white w-6 h-6 flex-shrink-0 mr-4" />}
+                {skill.type === "tool" && <ServerIcon className="text-white w-6 h-6 flex-shrink-0 mr-4" />}
                 <span className="title-font font-medium text-white">
                   {skill.name}
                 </span>
@@ -46,7 +46,7 @@ export default function GameDev() {
             <div key={skill} className="p-2 sm:w-1/3 w-full">
               <div className="bg-darkergray rounded flex p-4 h-full items-center">
                 {skill.type === "language" && <CodeIcon className="text-white w-6 h-6 flex-shrink-0 mr-4" />}
-                {skill.type === "tool" && <CalculatorIcon className="text-white w-6 h-6 flex-shrink-0 mr-4" />}
+                {skill.type === "tool" && <ServerIcon className="text-white w-6 h-6 flex-shrink-0 mr-4" />}
                 <span className="title-font font-medium text-white">
                   {skill.name}
                 </span>
