@@ -12,7 +12,7 @@ export default function GameDev() {
           <h1 className="text-4xl font-medium title-font pb-4">
             Game Dev
           </h1>
-          <p className="md:w-3/4 w-full mx-auto leading-relaxed text-base">
+          <p className="md:w-4/5 xl:w-2/3 w-full mx-auto leading-relaxed text-base">
             I have experience in both mobile industry and indie. I'm primarily an engineer, but I've worn many hats
             in my time as a game developer, from game design, to writing, to production, & even to simple art.
             My goals are to develop not only my skills in gameplay programming & technical design, but also to build
@@ -68,16 +68,16 @@ export default function GameDev() {
             Dec 2017 - Sep 2020
           </h2>
           <img
-            className="object-cover mx-auto w-full xl:w-2/3 mb-4 rounded-md"
+            className="mx-auto w-full lg:w-3/4 mb-4 rounded-md"
             src="./pictures/asitis.png"
             alt="As It Is"
           />
           <img
-            className="object-cover mx-auto w-full xl:w-2/3 mb-4 rounded-md"
+            className="mx-auto w-full lg:w-3/4 mb-4 rounded-md"
             src="./gifs/asitis.gif"
             alt="As It Is Gif"
           />
-          <p className="w-full sm:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="w-full md:w-4/5 xl:w-2/3 mx-auto leading-relaxed text-base">
             <i>As It Is</i> is a 2D, watercolor narrative game about a socially anxious hedgehog and a disillusioned hawk.
             On <i>As It Is</i>, I led weekly meetings, managed tasks & production, brought the game to festivals, created pitch presentations,
             and wrote all game code. Given financial resources, I would get this game published.
@@ -127,11 +127,11 @@ export default function GameDev() {
             May 2019 - Jan 2021
           </h2>
           <img
-            className="object-cover mx-auto w-full xl:w-2/3 mb-4 rounded-md"
+            className="mx-auto w-full lg:w-3/4 mb-4 rounded-md"
             src="./pictures/tetrisclash.png"
             alt="Tetris Clash"
           />
-          <p className="w-full sm:w-2/3  mx-auto leading-relaxed text-base">
+          <p className="w-full md:w-4/5 xl:w-2/3  mx-auto leading-relaxed text-base">
             On Tetris© Clash, I shipped a standalone app integrating the Skillz SDK in a 4-month development cycle.
             Tetris© Clash served asynchronous head-to-head battles between players for cash prizes.
           </p>
@@ -141,7 +141,7 @@ export default function GameDev() {
           <h1 className="text-2xl font-medium title-font text-red pb-4 hover:text-opacity-80">
             Smaller Projects
           </h1>
-          <p className="w-full sm:w-2/3 mx-auto pb-4 leading-relaxed text-base">
+          <p className="w-full md:w-4/5 xl:w-2/3 mx-auto pb-4 leading-relaxed text-base">
             These are projects of either lesser scope or projects in which I had a smaller role. Most of these are
             small games I made for fun, school projects, or game jams.
           </p>
