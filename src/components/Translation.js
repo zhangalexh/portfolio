@@ -21,7 +21,7 @@ export default function Translation() {
 
                 {translations.map((translation) => (
                     <div className="flex flex-row w-full mx-auto md:w-3/4 xl:w-2/3  justify-center mb-4">
-                        <div className="flex flex-col w-1/3 sm:w-1/2 lg:w-2/3 mt-4 justify-start">
+                        <div className="flex flex-col w-1/2 lg:w-2/3 mt-4 justify-start">
                             <h1 className="flex-shrink mr-8 text-sm sm:text-base text-left underline font-medium text-red">
                                 <a href={translation.link}>
                                     {translation.name}
@@ -32,7 +32,7 @@ export default function Translation() {
                             </p>
                         </div>
 
-                        <img className="w-2/3 sm:w-1/2 lg:w-1/3" src={translation.image} alt={translation.name}></img>
+                        <img className="w-1/2 lg:w-1/3" src={translation.image} alt={translation.name}></img>
                     </div>
                 ))}
             </div>
