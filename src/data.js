@@ -58,20 +58,53 @@ export const projects = [
 
 
 export const skills = [
-  "C#",
-  "C++",
-  "Unity",
-  "Git",
-  "Jira",
-  "Trello",
+  {
+    name: "C#",
+    type: "language"
+  },
+  {
+    name: "C++",
+    type: "language"
+  },
+  {
+    name: "Unity",
+    type: "tool"
+  },
+  {
+    name: "Git",
+    type: "tool"
+  },
+  {
+    name: "Jira",
+    type: "tool"
+  },
+  {
+    name: "Trello",
+    type: "tool"
+  },
 ];
 
 export const smallskills = [
-  "Java",
-  "Dart",
-  "Python",
-  "React",
-  "Jenkins",
+  {
+    name: "Java",
+    type: "language",
+  },
+  {
+    name: "Python",
+    type: "language",
+  },
+  {
+    name: "Flutter",
+    type: "tool",
+  },
+  {
+    name: "React",
+    type: "tool",
+  },
+  {
+    name: "Jenkins",
+    type: "tool",
+  },
 ]
 
 export const translations = [

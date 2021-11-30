@@ -24,7 +24,7 @@ export default function Intro() {
           </div>
           <div className="">
             <img
-              className="sm:flex ml-8 sm:w-full object-cover rounded-lg"
+              className="sm:flex ml-0 sm:ml-8 sm:w-full object-cover rounded-lg"
               alt="hero"
               src="pictures/meramen.jfif"
             />
