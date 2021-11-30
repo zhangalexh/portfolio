@@ -102,14 +102,15 @@ export default function GameDev() {
               src="./gifs/tetris.gif"
               alt="Tetris Gif"
             />
-            <div className="px-4 flex-shrink w-full sm:w-1/3 flex-col items-center text-left">
+            <div className="px-4 md:px-8 xl:px-16 flex-shrink w-full sm:w-2/3 md:w-1/2 xl:w-1/3 flex-col items-center text-left">
               <p>
+                Tetris© is the official mobile app for the world's favorite puzzle game. 
                 On Tetris©, I delivered client-side features such as Name Selection, Leaderboards,
                 and Tournaments for a player-base of over 10 million.
               </p>
               <br />
               <p>
-                Lots of my work involved development of Client-Server protocol design, in-client user interfaces,
+                Lots of my work involved development of client-server protocol design, in-client user interfaces,
                 and Live-Ops-friendly client behavior.
               </p>
             </div>
