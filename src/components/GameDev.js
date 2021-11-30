@@ -138,6 +138,21 @@ export default function GameDev() {
           </p>
         </div>
 
+        <div id="hitsuji" className="container py-8">
+          <h1 className="text-2xl font-medium title-font text-red hover:text-opacity-80">
+            Unannounced Title: Studio Hitsuji
+          </h1>
+          <h2 className="font-medium italic title-font text-tan">
+            Engineer
+          </h2>
+          <h2 className="text-sm font-medium italic title-font pb-4 text-gray">
+            Nov 2021 - Now
+          </h2>
+          <p className="w-full md:w-4/5 xl:w-2/3  mx-auto leading-relaxed text-base">
+            I'm currently with Studio Hitsuji developing an exciting new AR game for busybodies & city dwellers.
+          </p>
+        </div>
+
         <div id="smallerprojects" className="py-4">
           <h1 className="text-2xl font-medium title-font text-red pb-4 hover:text-opacity-80">
             Smaller Projects
