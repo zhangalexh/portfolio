@@ -18,9 +18,9 @@ export default function NavBar() {
             <a href="#gamedev" className="py-2 hover:text-white">
               Game Dev
             </a>
-            <a href="#translation" className="py-2 hover:text-white">
+            {/*<a href="#translation" className="py-2 hover:text-white">
               Translation
-            </a>
+  </a>*/}
             <a href="#taiko" className="py-2 hover:text-white">
               Taiko
             </a>

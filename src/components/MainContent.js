@@ -10,9 +10,9 @@ export default function MainContent() {
         <div className="flex-1 text-black bg-olive body-font">
             <Intro />
             <GameDev />
-            <Translation />
+            {/*<Translation/>*/}
             <Taiko />
-            <About />
+            {/*<About />*/}
         </div>
     );
 }
