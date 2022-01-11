@@ -7,7 +7,7 @@ import About from "./About";
 
 export default function MainContent() {
     return (
-        <div className="flex-1 text-black bg-olive body-font">
+        <div className="text-black body-font">
             <Intro />
             <GameDev />
             {/*<Translation/>*/}

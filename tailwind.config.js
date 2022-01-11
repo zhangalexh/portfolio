@@ -9,6 +9,10 @@ module.exports = {
       olive: '#ede9d0',
       gray: '#999999',
       darkergray: '#666666',
+      black: '#000000',
+    },
+    container: {
+      center: true,
     },
     extend: {},
   },

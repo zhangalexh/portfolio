@@ -6,13 +6,13 @@ import { projects, skills, smallskills, } from "../data";
 export default function GameDev() {
   return (
     <section id="gamedev" className="body-font">
-      <div className="px-4 py-8 mx-auto text-center lg:px-24">
+      <div className="py-8 ml-32 sm:w-10/12 text-center">
         <div className="flex flex-col pb-8">
           <CodeIcon className="mx-auto inline-block w-10 pb-4" />
           <h1 className="text-4xl font-medium title-font pb-4">
             Game Dev
           </h1>
-          <p className="md:w-4/5 xl:w-2/3 w-full mx-auto leading-relaxed text-base">
+          <p className="md:w-4/5 xl:w-2/3 mx-auto leading-relaxed text-base">
             I have experience in both mobile industry and indie. I'm primarily an engineer, but I've worn many hats
             in my time as a game developer, from game design, to writing, to production, & even to simple art.
             My goals are to develop not only my skills in gameplay programming & technical design, but also to build
@@ -25,7 +25,7 @@ export default function GameDev() {
         </h2>
         <div id="skills" className="flex flex-wrap lg:w-4/5 sm:mx-auto pb-4 -mx-2">
           {skills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/2 w-full">
+            <div key={skill} className="p-2 sm:w-1/2">
               <div className="bg-red rounded flex p-4 h-full items-center">
                 {skill.type === "language" && <BadgeCheckIcon className="text-white w-6 h-6 flex-shrink-0 mr-4" />}
                 {skill.type === "tool" && <CheckIcon className="text-white w-6 h-6 flex-shrink-0 mr-4" />}
@@ -43,7 +43,7 @@ export default function GameDev() {
 
         <div id="smallskills" className="flex flex-wrap lg:w-4/5 sm:mx-auto pb-4 -mx-2">
           {smallskills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/3 w-full">
+            <div key={skill} className="p-2 sm:w-1/3">
               <div className="bg-darkergray rounded flex p-4 h-full items-center">
                 {skill.type === "language" && <BadgeCheckIcon className="text-white w-6 h-6 flex-shrink-0 mr-4" />}
                 {skill.type === "tool" && <CheckIcon className="text-white w-6 h-6 flex-shrink-0 mr-4" />}
@@ -68,16 +68,16 @@ export default function GameDev() {
             Dec 2017 - Sep 2020
           </h2>
           <img
-            className="mx-auto w-full lg:w-3/4 mb-4 rounded-md"
+            className="mx-auto lg:w-3/4 mb-4 rounded-md"
             src="./pictures/asitis.png"
             alt="As It Is"
           />
           <img
-            className="mx-auto w-full lg:w-3/4 mb-4 rounded-md"
+            className="mx-auto lg:w-3/4 mb-4 rounded-md"
             src="./gifs/asitis.gif"
             alt="As It Is Gif"
           />
-          <p className="w-full md:w-4/5 xl:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="md:w-4/5 xl:w-2/3 mx-auto leading-relaxed text-base">
             <i>As It Is</i> is a 2D, watercolor narrative game about a socially anxious hedgehog and a disillusioned hawk.
             On <i>As It Is</i>, I led weekly meetings, managed tasks & production, brought the game to festivals, created pitch presentations,
             and wrote all game code. Given financial resources, I would get this game published.
@@ -98,13 +98,13 @@ export default function GameDev() {
           </h2>
           <div className="flex-1 flex flex-col sm:flex-row items-center sm:items-start justify-center">
             <img
-              className="w-full sm:w-1/4 xl:w-1/5 sm: mb-4 h-auto rounded-md"
+              className="sm:w-1/4 xl:w-1/5 sm: mb-4 h-auto rounded-md"
               src="./gifs/tetris.gif"
               alt="Tetris Gif"
             />
-            <div className="px-4 md:px-8 xl:px-16 flex-shrink w-full sm:w-2/3 md:w-1/2 xl:w-1/3 flex-col items-center text-left">
+            <div className="px-4 md:px-8 xl:px-16 flex-shrink sm:w-2/3 md:w-1/2 xl:w-1/3 flex-col items-center text-left">
               <p>
-                Tetris© is the official mobile app for the world's favorite puzzle game. 
+                Tetris© is the official mobile app for the world's favorite puzzle game.
                 On Tetris©, I delivered client-side features such as Name Selection, Leaderboards,
                 and Tournaments for a player-base of over 10 million.
               </p>
@@ -128,29 +128,13 @@ export default function GameDev() {
             May 2019 - Jan 2021
           </h2>
           <img
-            className="mx-auto w-full lg:w-3/4 mb-4 rounded-md"
+            className="mx-auto  lg:w-3/4 mb-4 rounded-md"
             src="./pictures/tetrisclash.png"
             alt="Tetris Clash"
           />
-          <p className="w-full md:w-4/5 xl:w-2/3  mx-auto leading-relaxed text-base">
+          <p className=" md:w-4/5 xl:w-2/3  mx-auto leading-relaxed text-base">
             On Tetris© Clash, I shipped a standalone app integrating the Skillz SDK in a 4-month development cycle.
             Tetris© Clash served asynchronous head-to-head battles between players for cash prizes.
-          </p>
-        </div>
-
-        <div id="hitsuji" className="container py-8">
-          <h1 className="text-2xl font-medium title-font text-red hover:text-opacity-80">
-            Unannounced Title: Studio Hitsuji
-          </h1>
-          <h2 className="font-medium italic title-font text-tan">
-            Engineer
-          </h2>
-          <h2 className="text-sm font-medium italic title-font pb-4 text-gray">
-            Nov 2021 - Now
-          </h2>
-          <p className="w-full md:w-4/5 xl:w-2/3  mx-auto leading-relaxed text-base">
-            I'm currently with Studio Hitsuji developing an exciting new AR game for 
-            busybodies & city dwellers in need of relaxation.
           </p>
         </div>
 
@@ -158,14 +142,14 @@ export default function GameDev() {
           <h1 className="text-2xl font-medium title-font text-red pb-4 hover:text-opacity-80">
             Smaller Projects
           </h1>
-          <p className="w-full md:w-4/5 xl:w-2/3 mx-auto pb-4 leading-relaxed text-base">
+          <p className=" md:w-4/5 xl:w-2/3 mx-auto pb-4 leading-relaxed text-base">
             These are projects of either lesser scope or projects in which I had a smaller role. Most of these are
             small games I made for fun, school projects, or game jams.
           </p>
 
-          <div className="flex flex-row w-full flex-wrap justify-center">
+          <div className="flex flex-row flex-wrap justify-center">
             {projects.map((project) => (
-              <div className="py-4 w-full sm:w-60 xl:w-80 h-auto mx-4 sm:mx-8" >
+              <div className="py-4 sm:w-60 xl:w-80 h-auto mx-4 sm:mx-8" >
                 {project.link !== "" ? (
                   <h1 className="text-4x1 underline font-medium text-red">
                     <a href={project.link} target="_blank" rel="noopener noreferrer">
