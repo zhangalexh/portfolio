@@ -1,9 +1,10 @@
 import { ArchiveIcon } from "@heroicons/react/solid";
-import React, { useRef } from 'react';
+import React, {useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 export default function Contact() {
     const form = useRef();
+    const [displayText, setDisplayText] = useState('');
 
     const sendEmail = (e) => {
       e.preventDefault();
@@ -11,6 +12,7 @@ export default function Contact() {
       emailjs.sendForm('service_adoym08', 'template_ynisof7', form.current, 'FYsu2jci_MTBCsWo8')
         .then((result) => {
             console.log(result.text);
+            setDisplayText("Submitted! Check your email for an auto-reply.")
         }, (error) => {
             console.log(error.text);
         });
@@ -18,14 +20,14 @@ export default function Contact() {
   
     return (
         <section id="contact">
-            <div className="px-5 py-8 mb-40 mx-auto max-w-screen-md">
-                <div className="text-center">
+            <div className="py-8 mb-40 mx-auto sm:w-10/12 lg:w-2/3 xl:w-1/2">
+                <div className = "text-left lg:text-center">
                     <ArchiveIcon className="w-10 inline-block mb-4" />
                 </div>
-                <h1 className="text-center text-4xl font-medium title-font pb-4">
+                <h1 className="text-left lg:text-center text-4xl font-medium title-font pb-4">
                     Contact
                 </h1>                
-                <p class="mb-8 lg:mb-16 text-center sm:text-xl">Need some help on your game or translation project? Let me know!</p>
+                <p class="mb-8 text-xl text-left lg:text-center">Need some help on your game or translation project? Let me know!</p>
                 <form class="space-y-8"  ref={form} onSubmit={sendEmail}>
                     <div>
                         <label for="email" class="block mb-2">Email</label>
@@ -40,6 +42,7 @@ export default function Contact() {
                         <textarea id="message" name="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500" placeholder="Your message here..."></textarea>
                     </div>
                     <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-red sm:w-fit hover:bg-gray focus:ring-4">Send message</button>
+                    <p>{displayText}</p>
                 </form>
             </div>
         </section>

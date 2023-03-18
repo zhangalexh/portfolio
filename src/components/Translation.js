@@ -5,13 +5,13 @@ import { translations } from "../data";
 export default function Translation() {
     return (
         <section id="translation">
-            <div className="container px-5 py-8 mx-auto">
-                <div className="text-center mb-20">
+            <div className="container py-8 sm:w-10/12 mx-auto">
+                <div className="text-left lg:text-center mb-20">
                     <TranslateIcon className="w-10 inline-block mb-4" />
                     <h1 className="text-4xl font-medium title-font mb-4">
                         Translation
                     </h1>
-                    <p className="text-xl leading-relaxed w-full md:w-4/5 xl:w-2/3 mx-auto">
+                    <p className="text-xl leading-relaxed w-full lg:w-4/5 xl:w-2/3 mx-auto">
                         I started seriously self-teaching Japanese in fall of 2020. 
                         <br></br>
                         After 2 years of self-study, I obtained JLPT N2 Certification.
@@ -23,7 +23,7 @@ export default function Translation() {
                 {translations.map((translation) => (
                     <div className="flex flex-row w-full mx-auto md:w-3/4 xl:w-2/3  justify-center mb-4">
                         <div className="flex flex-col w-1/2 lg:w-2/3 mt-4 justify-start">
-                            <h1 className="text-2xl flex-shrink mr-8 text-base underline text-red">
+                            <h1 className="text-2xl flex-shrink mr-8 underline text-red">
                                 <a href={translation.link}>
                                     {translation.name}
                                 </a>

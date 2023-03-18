@@ -4,8 +4,8 @@ import { EmojiHappyIcon } from "@heroicons/react/solid";
 export default function Taiko() {
     return (
         <section id="taiko" className="bg-gray-300">
-            <div className="mx-auto sm:w-10/12 px-5 py-8">
-                <div className="text-center mb-20">
+            <div className="mx-auto sm:w-10/12 py-8">
+                <div className="text-left lg:text-center">
                     <EmojiHappyIcon className="w-10 inline-block mb-4" />
                     <h1 className="text-4xl font-medium title-font mb-4">
                         Taiko
@@ -32,7 +32,7 @@ export default function Taiko() {
                             </iframe>
                         </div>
                     </div>
-                    <p className="text-base w-full md:w-4/5 mb-4 mx-auto text-gray italic">
+                    <p className="w-full md:w-4/5 mb-4 mx-auto text-gray italic">
                         A piece from our 2019 Spring Concert at USC.
                     </p>
                 </div>

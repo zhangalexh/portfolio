@@ -6,20 +6,18 @@ import { projects, skills, smallskills, } from "../data";
 export default function GameDev() {
   return (
     <section id="gamedev" className="body-font">
-      <div className="py-8 sm:w-10/12 mx-auto text-center">
-        <div className="flex flex-col pb-8">
-          <CodeIcon className="mx-auto inline-block w-10 pb-4" />
+      <div className="py-8 sm:w-10/12 mx-auto text-left lg:text-center">
+        <CodeIcon className="inline-block w-10 pb-4" />
           <h1 className="text-4xl font-medium title-font pb-4">
             Game Dev
           </h1>
-          <p className="md:w-4/5 xl:w-2/3 text-xl mx-auto leading-relaxed text-base">
+          <p className="lg:w-4/5 xl:w-2/3 text-xl mx-auto leading-relaxed">
             I have experience in both mobile industry and in indie. I'm primarily an engineer, 
             but I have experience in production, direction, writing, and design. I've led my own
             indie-team and I've been part of a game studio serving users in the millions.
           </p>
-        </div>
 
-        <h2 className="text-xl font-medium pb-4 text-red">
+        <h2 className="py-10 text-xl font-medium pb-4 text-red">
           I have a lot of experience with...
         </h2>
         <div id="skills" className="flex flex-wrap lg:w-4/5 sm:mx-auto pb-4 -mx-2">
@@ -76,10 +74,10 @@ export default function GameDev() {
             src="./gifs/asitis.gif"
             alt="As It Is Gif"
           />
-          <p className="md:w-4/5 xl:w-2/3 text-xl mx-auto leading-relaxed text-base">
+          <p className="lg:w-4/5 xl:w-2/3 text-xl mx-auto leading-relaxed">
             <i>As It Is</i> is a 2D, watercolor narrative game about a socially anxious hedgehog and a disillusioned hawk.
             On <i>As It Is</i>, I led weekly meetings, managed tasks & production, brought the game to festivals, created pitch presentations,
-            and wrote all the game code. <i>As It Is</i> has been to MAGFest 2019, PixelPop 2018, IndieCade 2019
+            and wrote all the game code. <i>As It Is</i> has been to MAGFest 2019, PixelPop 2018, and IndieCade 2019.
           </p>
         </div>
 
@@ -95,13 +93,13 @@ export default function GameDev() {
           <h2 className="text-sm font-medium italic title-font pb-4 text-gray">
             May 2019 - Jan 2021
           </h2>
-          <div className="flex-1 flex flex-col sm:flex-row items-center sm:items-start justify-center">
+          <div className="flex-1 flex flex-col md:flex-row items-start justify-center">
             <img
-              className="sm:w-1/4 xl:w-1/5 sm: mb-4 h-auto rounded-md"
+              className="sm:w-3/4 md:w-2/3 lg:w-1/3 xl:w-1/5 sm: mb-4 h-auto rounded-md"
               src="./gifs/tetris.gif"
               alt="Tetris Gif"
             />
-            <div className="text-xl px-4 md:px-8 xl:px-16 flex-shrink sm:w-2/3 md:w-1/2 xl:w-1/3 flex-col items-center text-left">
+            <div className="text-xl md:px-8 xl:px-16 flex-shrink sm:w-2/3 md:w-1/2 xl:w-1/3 flex-col items-center text-left">
               <p>
                 Tetris© is the official mobile app for the world's favorite puzzle game.
                 On Tetris©, I delivered client-side features such as Name Selection, Leaderboards,
@@ -127,11 +125,11 @@ export default function GameDev() {
             May 2019 - Jan 2021
           </h2>
           <img
-            className="mx-auto  lg:w-3/4 mb-4 rounded-md"
+            className="mx-auto lg:w-3/4 mb-4 rounded-md"
             src="./pictures/tetrisclash.png"
             alt="Tetris Clash"
           />
-          <p className="text-xl md:w-4/5 xl:w-2/3  mx-auto leading-relaxed text-base">
+          <p className="text-xl lg:w-4/5 xl:w-2/3  mx-auto leading-relaxed">
             On Tetris© Clash, I shipped a standalone app integrating the Skillz SDK in a 4-month development cycle.
             Tetris© Clash served asynchronous head-to-head battles between players for cash prizes.
           </p>
@@ -141,14 +139,14 @@ export default function GameDev() {
           <h1 className="text-3xl font-medium title-font text-red pb-4 hover:text-opacity-80">
             Smaller Projects
           </h1>
-          <p className="text-xl md:w-4/5 xl:w-1/2 mx-auto pb-4 leading-relaxed text-base">
+          <p className="text-xl lg:w-4/5 xl:w-1/2 mx-auto pb-4 leading-relaxed">
             These are projects of either lesser scope or projects in which I had a smaller role. Most of these are
             small games I made for fun, school projects, or game jams.
           </p>
 
-          <div className="flex flex-row flex-wrap justify-center">
+          <div className="lg:w-4/5 xl:w-2/3 mx-auto flex flex-row flex-wrap justify-center">
             {projects.map((project) => (
-              <div className="py-4 sm:w-60 xl:w-80 h-auto mx-4 sm:mx-8" >
+              <div className="py-4 sm:w-1/2 h-auto px-4" >
                 {project.link !== "" ? (
                   <h1 className="text-xl underline font-medium text-red">
                     <a href={project.link} target="_blank" rel="noopener noreferrer">
