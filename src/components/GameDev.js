@@ -6,21 +6,20 @@ import { projects, skills, smallskills, } from "../data";
 export default function GameDev() {
   return (
     <section id="gamedev" className="body-font">
-      <div className="py-8 ml-32 sm:w-10/12 text-center">
+      <div className="py-8 sm:w-10/12 mx-auto text-center">
         <div className="flex flex-col pb-8">
           <CodeIcon className="mx-auto inline-block w-10 pb-4" />
           <h1 className="text-4xl font-medium title-font pb-4">
             Game Dev
           </h1>
-          <p className="md:w-4/5 xl:w-2/3 mx-auto leading-relaxed text-base">
-            I have experience in both mobile industry and indie. I'm primarily an engineer, but I've worn many hats
-            in my time as a game developer, from game design, to writing, to production, & even to simple art.
-            My goals are to develop not only my skills in gameplay programming & technical design, but also to build
-            my production skills. I'd like to lead a team and touch every part of a game's development cycle.
+          <p className="md:w-4/5 xl:w-2/3 text-xl mx-auto leading-relaxed text-base">
+            I have experience in both mobile industry and in indie. I'm primarily an engineer, 
+            but I have experience in production, direction, writing, and design. I've led my own
+            indie-team and I've been part of a game studio serving users in the millions.
           </p>
         </div>
 
-        <h2 className="text-3x1 font-medium pb-4 text-red">
+        <h2 className="text-xl font-medium pb-4 text-red">
           I have a lot of experience with...
         </h2>
         <div id="skills" className="flex flex-wrap lg:w-4/5 sm:mx-auto pb-4 -mx-2">
@@ -56,12 +55,12 @@ export default function GameDev() {
         </div>
 
         <div id="asitis" className="py-8">
-          <h1 className="text-2xl underline font-medium title-font text-red hover:text-opacity-80">
-            <a href="https://egghouse.itch.io/as-it-is" target="_blank" rel="noopener noreferrer">
+          <h1 className="text-3xl underline font-medium title-font text-red hover:text-opacity-80">
+            <a href="https://egghouse.github.io/" target="_blank" rel="noopener noreferrer">
               As It Is
             </a>
           </h1>
-          <h2 className="font-medium italic title-font text-tan">
+          <h2 className="text-xl font-medium italic title-font text-tan">
             Egghouse - Creative Director, Engineer, Producer
           </h2>
           <h2 className="text-sm font-medium italic title-font pb-4 text-gray">
@@ -77,20 +76,20 @@ export default function GameDev() {
             src="./gifs/asitis.gif"
             alt="As It Is Gif"
           />
-          <p className="md:w-4/5 xl:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="md:w-4/5 xl:w-2/3 text-xl mx-auto leading-relaxed text-base">
             <i>As It Is</i> is a 2D, watercolor narrative game about a socially anxious hedgehog and a disillusioned hawk.
             On <i>As It Is</i>, I led weekly meetings, managed tasks & production, brought the game to festivals, created pitch presentations,
-            and wrote all game code. Given financial resources, I would get this game published.
+            and wrote all the game code. <i>As It Is</i> has been to MAGFest 2019, PixelPop 2018, IndieCade 2019
           </p>
         </div>
 
         <div id="tetris" className="container py-8">
-          <h1 className="text-2xl underline font-medium title-font text-red hover:text-opacity-80">
+          <h1 className="text-3xl underline font-medium title-font text-red hover:text-opacity-80">
             <a href="https://www.tetrismobileapp.com/" target="_blank" rel="noopener noreferrer">
               Tetris© Mobile App
             </a>
           </h1>
-          <h2 className="font-medium italic title-font text-tan">
+          <h2 className="text-xl font-medium italic title-font text-tan">
             N3TWORK - Client Engineer
           </h2>
           <h2 className="text-sm font-medium italic title-font pb-4 text-gray">
@@ -102,7 +101,7 @@ export default function GameDev() {
               src="./gifs/tetris.gif"
               alt="Tetris Gif"
             />
-            <div className="px-4 md:px-8 xl:px-16 flex-shrink sm:w-2/3 md:w-1/2 xl:w-1/3 flex-col items-center text-left">
+            <div className="text-xl px-4 md:px-8 xl:px-16 flex-shrink sm:w-2/3 md:w-1/2 xl:w-1/3 flex-col items-center text-left">
               <p>
                 Tetris© is the official mobile app for the world's favorite puzzle game.
                 On Tetris©, I delivered client-side features such as Name Selection, Leaderboards,
@@ -110,7 +109,7 @@ export default function GameDev() {
               </p>
               <br />
               <p>
-                Lots of my work involved development of client-server protocol design, in-client user interfaces,
+                My work involved development of client-server protocol design, in-client user interfaces,
                 and Live-Ops-friendly client behavior.
               </p>
             </div>
@@ -118,10 +117,10 @@ export default function GameDev() {
         </div>
 
         <div id="tetrisclash" className="container py-8">
-          <h1 className="text-2xl font-medium title-font text-red hover:text-opacity-80">
+          <h1 className="text-3xl font-medium title-font text-red hover:text-opacity-80">
             Tetris© Clash
           </h1>
-          <h2 className="font-medium italic title-font text-tan">
+          <h2 className="text-xl font-medium italic title-font text-tan">
             N3TWORK - Client Engineer
           </h2>
           <h2 className="text-sm font-medium italic title-font pb-4 text-gray">
@@ -132,17 +131,17 @@ export default function GameDev() {
             src="./pictures/tetrisclash.png"
             alt="Tetris Clash"
           />
-          <p className=" md:w-4/5 xl:w-2/3  mx-auto leading-relaxed text-base">
+          <p className="text-xl md:w-4/5 xl:w-2/3  mx-auto leading-relaxed text-base">
             On Tetris© Clash, I shipped a standalone app integrating the Skillz SDK in a 4-month development cycle.
             Tetris© Clash served asynchronous head-to-head battles between players for cash prizes.
           </p>
         </div>
 
         <div id="smallerprojects" className="py-4">
-          <h1 className="text-2xl font-medium title-font text-red pb-4 hover:text-opacity-80">
+          <h1 className="text-3xl font-medium title-font text-red pb-4 hover:text-opacity-80">
             Smaller Projects
           </h1>
-          <p className=" md:w-4/5 xl:w-2/3 mx-auto pb-4 leading-relaxed text-base">
+          <p className="text-xl md:w-4/5 xl:w-1/2 mx-auto pb-4 leading-relaxed text-base">
             These are projects of either lesser scope or projects in which I had a smaller role. Most of these are
             small games I made for fun, school projects, or game jams.
           </p>
@@ -151,13 +150,13 @@ export default function GameDev() {
             {projects.map((project) => (
               <div className="py-4 sm:w-60 xl:w-80 h-auto mx-4 sm:mx-8" >
                 {project.link !== "" ? (
-                  <h1 className="text-4x1 underline font-medium text-red">
+                  <h1 className="text-xl underline font-medium text-red">
                     <a href={project.link} target="_blank" rel="noopener noreferrer">
                       {project.name}
                     </a>
                   </h1>
                 ) : (
-                  <h1 className="text-4x1 font-medium text-red">
+                  <h1 className="text-xl font-medium text-red">
                     {project.name}
                   </h1>
                 )}

@@ -8,27 +8,28 @@ export default function Translation() {
             <div className="container px-5 py-8 mx-auto">
                 <div className="text-center mb-20">
                     <TranslateIcon className="w-10 inline-block mb-4" />
-                    <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4">
+                    <h1 className="text-4xl font-medium title-font mb-4">
                         Translation
                     </h1>
-                    <p className="text-base leading-relaxed w-full md:w-4/5 xl:w-2/3 mx-auto">
-                        I started seriously self-teaching Japanese in fall of 2020. Leveraging my knowledge of Chinese
-                        & my countless hours consuming Japanese media, I've been able to learn at a brisk pace.
-                        Now, I've gotten good enough to start doing manga translation work.
-                        While translating is a hobby for me, I'd still like to show it off here.
+                    <p className="text-xl leading-relaxed w-full md:w-4/5 xl:w-2/3 mx-auto">
+                        I started seriously self-teaching Japanese in fall of 2020. 
+                        <br></br>
+                        After 2 years of self-study, I obtained JLPT N2 Certification.
+                        I volunteer part-time in a scanlation group translating Japanese manga.
+                        I've translated over 17,000 words in manga.
                     </p>
                 </div>
 
                 {translations.map((translation) => (
                     <div className="flex flex-row w-full mx-auto md:w-3/4 xl:w-2/3  justify-center mb-4">
                         <div className="flex flex-col w-1/2 lg:w-2/3 mt-4 justify-start">
-                            <h1 className="flex-shrink mr-8 text-sm sm:text-base text-left underline font-medium text-red">
+                            <h1 className="text-2xl flex-shrink mr-8 text-base underline text-red">
                                 <a href={translation.link}>
                                     {translation.name}
                                 </a>
                             </h1>
-                            <p className="flex flex-shrink mr-8">
-                                Chapters Translated: {translation.progress}
+                            <p className="text-xl flex flex-shrink mr-8">
+                                {translation.progress}
                             </p>
                         </div>
 

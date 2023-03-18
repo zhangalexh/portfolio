@@ -13,7 +13,7 @@ export const projects = [
     date: "Oct 2020",
     title: "Programmer",
     description:
-      "A short, silly dating sim made for a Game Jam. I made this with my Egghouse team (As It Is) to take a break from our usual development and make something different.",
+      "A short, silly dating sim made for a Game Jam. I made this with my Egghouse team (As It Is).",
     image: "./pictures/moongame.png",
     link: "https://jelloboy.itch.io/moon-game"
   },
@@ -49,7 +49,7 @@ export const projects = [
     date: "Jun 2014 - Aug 2014",
     title: "Audio Arranger",
     description:
-      "A Super Bomberman-inspired game with one new feature: wall wrapping. This was made at a Pre-College program at Carnegie Mellon University's.",
+      "A Super Bomberman-inspired game with one new feature: wall wrapping. Created at a Pre-College program at Carnegie Mellon University's.",
     image: "./pictures/newgame.png",
     link: ""
   },
@@ -109,15 +109,15 @@ export const smallskills = [
 
 export const translations = [
   {
-    name: "The Useless Saint & the Cursed Holy Knight",
-    image: "./pictures/uselesssaint.jpg",
-    progress: 1,
-    link: "https://mangadex.org/title/4ab835b3-5531-4f5d-9ade-1cc4460afeec/the-useless-saint-and-the-cursed-holy-knight",
+    name: "Orange",
+    image: "./pictures/orange.jpg",
+    progress: "Book 7, Chapters 27-33",
+    link: "https://mangadex.org/title/cffdc4f4-0cd9-409b-b88c-62aaf2882e07/orange",
   },
   {
-    name: "I’m Using the Hero Who Loves Me Too Much, Because I Planned to Live a Long Life in This World (I Probably Failed Again)",
-    image: "./pictures/usingthehero.jpg",
-    progress: 1,
+    name: "Candy & Cigarettes",
+    image: "./pictures/cc.jpg",
+    progress: "Books 6-9, Chapters 28-44",
     link: "https://mangadex.org/title/16fa59cd-f198-4fd0-801c-8d5c5ee53070/i-m-using-the-hero-who-loves-me-too-much-because-i-planned-to-live-a-long-life-in-this-world-i-probably-failed-again",
   },
 ];
