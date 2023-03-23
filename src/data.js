@@ -1,5 +1,14 @@
 export const projects = [
   {
+    name: "Untitled Memories Game",
+    date: "Jan 2022",
+    title: "Programmer, Designer",
+    description:
+      "A quiet, narrative-driven disjointed sequence of my childhood memories. Submitted for Global Game Jam 2022..",
+    image: "./pictures/memgame.png",
+    link: "https://jelloboy.itch.io/memoriesgame"
+  },
+  {
     name: "Found a Friend",
     date: "Jan 2021",
     title: "Solo Dev",
@@ -118,6 +127,6 @@ export const translations = [
     name: "Candy & Cigarettes",
     image: "./pictures/cc.jpg",
     progress: "Books 6-9, Chapters 28-44",
-    link: "https://mangadex.org/title/16fa59cd-f198-4fd0-801c-8d5c5ee53070/i-m-using-the-hero-who-loves-me-too-much-because-i-planned-to-live-a-long-life-in-this-world-i-probably-failed-again",
+    link: "https://mangadex.org/title/1d73115f-b53f-4c35-85fd-72b958554ec0/candy-cigarettes",
   },
 ];
