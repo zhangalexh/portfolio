@@ -4,7 +4,7 @@ export const projects = [
     date: "Jan 2022",
     title: "Programmer, Designer",
     description:
-      "A quiet, narrative-driven disjointed sequence of my childhood memories. Submitted for Global Game Jam 2022..",
+      "A quiet, narrative-driven disjointed sequence of my childhood memories. Submitted for Global Game Jam 2022.",
     image: "./pictures/memgame.png",
     link: "https://jelloboy.itch.io/memoriesgame"
   },
