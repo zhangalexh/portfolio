@@ -11,7 +11,7 @@ export default function Intro() {
               alt="hero"
               src="pictures/meramen.png"
             />
-            <p>
+            <p className="text-xs">
               Art by <a className=" underline" href="https://twitter.com/Ryukocha_Art" target="_blank" rel="noopener noreferrer">@Ryukocha_Art</a>
             </p>
           </div>

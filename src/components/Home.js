@@ -6,7 +6,6 @@ import Resume from "./Resume";
 export default function Home() {
     return (
         <div className="px-4 lg:px-0 text-black body-font">
-            <Resume />
             <Intro />
             <GameDev />
         </div>

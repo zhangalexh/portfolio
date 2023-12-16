@@ -6,11 +6,13 @@ import Translation from "./unused/Translation";
 import NavBar from "./components/NavBar";
 import Contact from "./components/Contact";
 import Taiko from "./components/Taiko";
+import Resume from "./components/Resume"
 
 export default function App() {
   return (
     <Router>
       <NavBar />
+      <Resume />
       <div className="ml-32 lg:ml-0 ">
         <Routes>
           <Route path="/" element={<Home />} />
