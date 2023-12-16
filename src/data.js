@@ -126,7 +126,31 @@ export const translations = [
   {
     name: "Candy & Cigarettes",
     image: "./pictures/cc.jpg",
-    progress: "Books 6-9, Chapters 28-44",
+    progress: "Books 6-9, Chapters 28-48",
     link: "https://mangadex.org/title/1d73115f-b53f-4c35-85fd-72b958554ec0/candy-cigarettes",
   },
 ];
+
+
+export const artworks = [
+  {
+    name: "Himari and Kirby",
+    type: "Portrait",
+    src: "./artworks/Himari_And_Kirby.png",
+  },
+  {
+    name: "Kirbo Sleeping",
+    type: "Portrait",
+    src: "./artworks/Kirbo_Sleeping.png",
+  },
+  {
+    name: "Kirbo at the Beach",
+    type: "Landscape",
+    src: "./artworks/Kirbo_at_the_Beach.png",
+  },
+  {
+    name: "Holo",
+    type: "Portrait",
+    src: "./artworks/Holo.png",
+  },
+]

@@ -22,7 +22,7 @@ export default function GameDev() {
         </h2>
         <div id="skills" className="flex flex-wrap lg:w-4/5 sm:mx-auto pb-4 -mx-2">
           {skills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/2">
+            <div key={skill.name} className="p-2 sm:w-1/2">
               <div className="bg-red rounded flex p-4 h-full items-center">
                 {skill.type === "language" && <BadgeCheckIcon className="text-white w-6 h-6 flex-shrink-0 mr-4" />}
                 {skill.type === "tool" && <CheckIcon className="text-white w-6 h-6 flex-shrink-0 mr-4" />}
@@ -40,7 +40,7 @@ export default function GameDev() {
 
         <div id="smallskills" className="flex flex-wrap lg:w-4/5 sm:mx-auto pb-4 -mx-2">
           {smallskills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/3">
+            <div key={skill.name} className="p-2 sm:w-1/3">
               <div className="bg-darkergray rounded flex p-4 h-full items-center">
                 {skill.type === "language" && <BadgeCheckIcon className="text-white w-6 h-6 flex-shrink-0 mr-4" />}
                 {skill.type === "tool" && <CheckIcon className="text-white w-6 h-6 flex-shrink-0 mr-4" />}
