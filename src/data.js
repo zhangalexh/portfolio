@@ -58,7 +58,7 @@ export const projects = [
     date: "Jun 2014 - Aug 2014",
     title: "Audio Arranger",
     description:
-      "A Super Bomberman-inspired game with one new feature: wall wrapping. Created at a Pre-College program at Carnegie Mellon University's.",
+      "A Super Bomberman-inspired game with one new feature: wall wrapping. Created at a Pre-College program at Carnegie Mellon University.",
     image: "./pictures/newgame.png",
     link: ""
   },
