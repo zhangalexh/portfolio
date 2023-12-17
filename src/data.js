@@ -136,21 +136,21 @@ export const artworks = [
   {
     name: "Himari and Kirby",
     type: "Portrait",
-    src: "./artworks/Himari_And_Kirby.png",
+    src: "./artworks/himariandkirby.png",
   },
   {
     name: "Kirbo Sleeping",
     type: "Portrait",
-    src: "./artworks/Kirbo_Sleeping.png",
+    src: "./artworks/kirbosleeping.png",
   },
   {
     name: "Kirbo at the Beach",
     type: "Landscape",
-    src: "./artworks/Kirbo_at_the_Beach.png",
+    src: "./artworks/kirbobeach.png",
   },
   {
     name: "Holo",
     type: "Portrait",
-    src: "./artworks/Holo.png",
+    src: "./artworks/holored.png",
   },
 ]
