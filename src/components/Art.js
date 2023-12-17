@@ -11,7 +11,7 @@ export default function Art() {
                     <h1 className="text-4xl font-medium title-font mb-4">
                         Art
                     </h1>
-                    <p>Here is my art portfolio! I started drawing in July 2023.</p>
+                    <p>Here is my tiny art portfolio! I started drawing in July 2023.</p>
                     <div className="flex flex-wrap lg:w-4/5 sm:mx-auto pb-4 -mx-2">
                       {artworks.map((artwork) => (
                         <div key={artwork.name} className="p-2 sm:w-1/2">
