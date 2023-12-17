@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Home from "./components/Home";
 import Art from "./components/Art";
 import Translation from "./unused/Translation";
@@ -10,7 +10,7 @@ import Resume from "./components/Resume"
 
 export default function App() {
   return (
-    <Router>
+    <HashRouter>
       <NavBar />
       <Resume />
       <div className="ml-32 lg:ml-0 ">
@@ -22,6 +22,6 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
