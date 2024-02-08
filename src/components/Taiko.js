@@ -4,7 +4,7 @@ import { EmojiHappyIcon } from "@heroicons/react/solid";
 export default function Taiko() {
     return (
         <section id="taiko" className="bg-gray-300">
-            <div className="mx-auto sm:w-10/12 py-8">
+            <div className="px-2 lg:px-0 mx-auto sm:w-10/12 py-8">
                 <div className="text-left lg:text-center">
                     <EmojiHappyIcon className="w-10 inline-block mb-4" />
                     <h1 className="text-4xl font-medium title-font mb-4">

@@ -134,6 +134,16 @@ export const translations = [
 
 export const artworks = [
   {
+    name: "Foudo Weekly Challenge, 1/29/24",
+    type: "Portrait",
+    src: "./artworks/foudoweekly12924.png",
+  },
+  {
+    name: "Lavender Guy",
+    type: "Landscape",
+    src: "./artworks/lavenderguy.png",
+  },
+  {
     name: "Himari and Kirby",
     type: "Portrait",
     src: "./artworks/himariandkirby.png",

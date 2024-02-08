@@ -5,7 +5,7 @@ import { translations } from "../data";
 export default function Translation() {
     return (
         <section id="translation">
-            <div className="container py-8 sm:w-10/12 mx-auto">
+            <div className="px-2 lg:px-0 container py-8 sm:w-10/12 mx-auto">
                 <div className="text-left lg:text-center mb-20">
                     <TranslateIcon className="w-10 inline-block mb-4" />
                     <h1 className="text-4xl font-medium title-font mb-4">

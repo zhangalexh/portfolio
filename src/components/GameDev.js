@@ -81,6 +81,36 @@ export default function GameDev() {
           </p>
         </div>
 
+        <div id="lhu" className="container py-8">
+          <h1 className="text-3xl underline font-medium title-font text-red hover:text-opacity-80">
+            <a href="https://www.legendaryheroesunchained.com/" target="_blank" rel="noopener noreferrer">
+              Legendary Heroes Unchained
+            </a>
+          </h1>
+          <h2 className="text-xl font-medium italic title-font text-tan">
+            N3TWORK - Client Engineer
+          </h2>
+          <h2 className="text-sm font-medium italic title-font pb-4 text-gray">
+            March 2022 - Present
+          </h2>
+            <img
+              className="mx-auto lg:w-3/4 mb-4 rounded-md"
+              src="./pictures/lhu.jpg"
+              alt="LHU"
+            />
+            <div className="text-xl lg:w-4/5 xl:w-2/3  mx-auto leading-relaxed">
+              <p>
+                I'm working on Legendary Heroes Unchained, a hero collector RPG for the web.
+              </p>
+              <br />
+              <p>
+                I'm involved in MVC-style UI development, rogue-like graph node rendering, 
+                procedural environment sprite placement, 
+                plus the myriad of challenges that come with making a game for Web. 
+              </p>
+            </div>
+        </div>
+
         <div id="tetris" className="container py-8">
           <h1 className="text-3xl underline font-medium title-font text-red hover:text-opacity-80">
             <a href="https://www.tetrismobileapp.com/" target="_blank" rel="noopener noreferrer">

@@ -20,7 +20,7 @@ export default function Contact() {
   
     return (
         <section id="contact">
-            <div className="py-8 mb-40 mx-auto w-70 sm:w-10/12 lg:w-1/2 xl:w-1/3">
+            <div className="px-2 lg:px-0 py-8 mb-40 mx-auto w-70 sm:w-10/12 lg:w-1/2 xl:w-1/3">
                 <div className = "text-left lg:text-center">
                     <ArchiveIcon className="w-10 inline-block mb-4" />
                 </div>
