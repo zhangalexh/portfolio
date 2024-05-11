@@ -164,3 +164,22 @@ export const artworks = [
     src: "./artworks/holored.png",
   },
 ]
+
+export const modelling = [
+  {
+    name: "1",
+    src: "./modelling/modelling_1.jpg"
+  },
+  {
+    name: "2",
+    src: "./modelling/modelling_2.jpg"
+  },
+  {
+    name: "3",
+    src: "./modelling/modelling_3.jpg"
+  },
+  {
+    name: "4",
+    src: "./modelling/modelling_4.jpg"
+  },
+]

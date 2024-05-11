@@ -7,12 +7,15 @@ import NavBar from "./components/NavBar";
 import Contact from "./components/Contact";
 import Taiko from "./components/Taiko";
 import Resume from "./components/Resume"
+import Secret from "./components/Secret/Secret"
+import Modelling from "./components/Secret/Modelling"
 
 export default function App() {
   return (
     <HashRouter>
       <NavBar />
       <Resume />
+      <Secret />
       <div className="ml-32 lg:ml-0 ">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -20,6 +23,7 @@ export default function App() {
           <Route path="/taiko" element={<Taiko />} />
           <Route path="/translation" element={<Translation />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/modelling" element={<Modelling />} />
         </Routes>
       </div>
     </HashRouter>
