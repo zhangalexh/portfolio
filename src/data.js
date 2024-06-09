@@ -156,7 +156,7 @@ export const artworks = [
   {
     name: "Kirbo Sleeping",
     type: "Portrait",
-    src: "./artworks/kirbosleeping.PNG",
+    src: "./artworks/kirbosleeping.png",
   },
   {
     name: "Kirbo at the Beach",
