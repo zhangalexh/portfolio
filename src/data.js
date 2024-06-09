@@ -88,7 +88,7 @@ export const skills = [
     type: "tool"
   },
   {
-    name: "Trello",
+    name: "Clickup",
     type: "tool"
   },
 ];
