@@ -25,6 +25,20 @@ export default function Taiko() {
                         <div className="mx-auto aspect-w-16 aspect-h-9 rounded-md">
                             <iframe
                                 className=""
+                                src="https://www.youtube.com/embed/Z7VTREfy9vU"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <p className="w-full md:w-4/5 mb-4 mx-auto text-gray italic">
+                        Dekoboko Taiko: A piece at the U-District Street Fair in Seattle, 2024.
+                    </p>
+                    <div className="mx-auto w-full lg:w-3/4">
+                        <div className="mx-auto aspect-w-16 aspect-h-9 rounded-md">
+                            <iframe
+                                className=""
                                 src="https://www.youtube.com/embed/sQlv_C04FAQ"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -33,7 +47,7 @@ export default function Taiko() {
                         </div>
                     </div>
                     <p className="w-full md:w-4/5 mb-4 mx-auto text-gray italic">
-                        A piece from our 2019 Spring Concert at USC.
+                        Kazan Taiko: A piece from our Spring Concert in Los Angeles, 2019.
                     </p>
                 </div>
             </div>

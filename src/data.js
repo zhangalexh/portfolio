@@ -134,6 +134,11 @@ export const translations = [
 
 export const artworks = [
   {
+    name: "Bad Thoughts",
+    type: "Portrait",
+    src: "./artworks/badthoughts.PNG",
+  },
+  {
     name: "Foudo Weekly Challenge, 1/29/24",
     type: "Portrait",
     src: "./artworks/foudoweekly12924.png",
@@ -151,7 +156,7 @@ export const artworks = [
   {
     name: "Kirbo Sleeping",
     type: "Portrait",
-    src: "./artworks/kirbosleeping.png",
+    src: "./artworks/kirbosleeping.PNG",
   },
   {
     name: "Kirbo at the Beach",
