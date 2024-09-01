@@ -14,7 +14,7 @@ export default function Art() {
                     <p>Here is my tiny art portfolio! I started drawing in July 2023.</p>
                     <div className="flex flex-wrap lg:w-4/5 sm:mx-auto pb-4 -mx-2">
                       {artworks.map((artwork) => (
-                        <div key={artwork.name} className="p-2 sm:w-1/2">
+                        <div key={artwork.name} className={`p-2 ${artwork.type === "Landscape" ? "w-full" : "sm:w-1/2"}`}>
                           <div className="rounded flex p-4 h-full items-center">
                             <img src={artwork.src} className="rounded"></img>
                           </div>

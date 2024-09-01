@@ -134,9 +134,34 @@ export const translations = [
 
 export const artworks = [
   {
+    name: "Isaac",
+    type: "Portrait",
+    src: "./artworks/isaac.png"
+  },
+  {
+    name: "Cup",
+    type: "Portrait",
+    src: "./artworks/cup.png"
+  },
+  {
+    name: "Buggy",
+    type: "Landscape",
+    src: "./artworks/buggee.png"
+  },
+  {
+    name: "Apple Sidra",
+    type: "Portrait",
+    src: "./artworks/applesidra.png"
+  },
+  {
+    name: "Queen Simp",
+    type: "Portrait",
+    src: "./artworks/queensimp.png"
+  },
+  {
     name: "Bad Thoughts",
     type: "Portrait",
-    src: "./artworks/badthoughts.PNG",
+    src: "./artworks/badthoughts.png",
   },
   {
     name: "Foudo Weekly Challenge, 1/29/24",
