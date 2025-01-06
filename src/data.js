@@ -134,6 +134,41 @@ export const translations = [
 
 export const artworks = [
   {
+    name: "March",
+    type: "Portrait",
+    src: "./artworks/march.png"
+  },
+  {
+    name: "Comic",
+    type: "Portrait",
+    src: "./artworks/comic.png"
+  },
+  {
+    name: "Ekko",
+    type: "Portrait",
+    src: "./artworks/ekko.png"
+  },
+  {
+    name: "Chitose",
+    type: "Portrait",
+    src: "./artworks/chitose2.png"
+  },
+  {
+    name: "Chitose",
+    type: "Portrait",
+    src: "./artworks/chitose.png"
+  },
+  {
+    name: "Asleep",
+    type: "Landscape",
+    src: "./artworks/asleep.png"
+  },
+  {
+    name: "Mitama",
+    type: "Portrait",
+    src: "./artworks/mitama.png"
+  },
+  {
     name: "Isaac",
     type: "Portrait",
     src: "./artworks/isaac.png"
