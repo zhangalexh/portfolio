@@ -9,7 +9,7 @@ export default function Resume() {
         <a href="https://www.linkedin.com/in/alex-zhang-088026116/" target="_blank" className="self-center w-4 h-4">
           <img src="./icons/linkedin.svg" ></img>
         </a>
-        <a href="/files/AlexZhangDevResume.pdf" className="flex text-xl text-black" target="_blank" download>
+        <a href="/files/Resume-AlexZhang.pdf" className="flex text-xl text-black" target="_blank" download>
           Resume
           <DownloadIcon className="self-center w-4 h-4" />
         </a>
