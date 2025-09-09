@@ -7,6 +7,7 @@
     "@craco/craco": "^5.9.0",
     "@emailjs/browser": "^3.10.0",
     "@heroicons/react": "^1.0.1",
+    "@splidejs/react-splide": "^0.7.12",
     "@tailwindcss/postcss7-compat": "^2.0.4",
     "craco": "^0.0.3",
     "email-js": "^2.0.2",

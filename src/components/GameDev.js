@@ -1,6 +1,8 @@
 import { CodeIcon, CheckIcon, BadgeCheckIcon } from "@heroicons/react/solid";
 import React from "react";
-import { projects, skills, smallskills, } from "../data";
+import { projects, skills, smallskills, lhu } from "../data";
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/react-splide/css';
 
 
 export default function GameDev() {
@@ -8,14 +10,14 @@ export default function GameDev() {
     <section id="gamedev" className="body-font">
       <div className="py-8 sm:w-10/12 mx-auto text-left lg:text-center">
         <CodeIcon className="inline-block w-10 pb-4" />
-          <h1 className="text-4xl font-medium title-font pb-4">
-            Game Dev
-          </h1>
-          <p className="lg:w-4/5 xl:w-2/3 text-xl mx-auto leading-relaxed">
-            I have experience in both mobile industry and in indie. I'm primarily an engineer, 
-            but I have experience in production, direction, writing, and design. I've led my own
-            indie-team and I've been part of a game studio serving users in the millions.
-          </p>
+        <h1 className="text-4xl font-medium title-font pb-4">
+          Game Dev
+        </h1>
+        <p className="lg:w-4/5 xl:w-2/3 text-xl mx-auto leading-relaxed">
+          I have experience in both mobile industry and in indie. I'm primarily an engineer,
+          but I have experience in production, direction, writing, and design. I've led my own
+          indie-team and I've been part of a game studio serving users in the millions.
+        </p>
 
         <h2 className="py-10 text-xl font-medium pb-4 text-red">
           I have a lot of experience with...
@@ -91,24 +93,35 @@ export default function GameDev() {
             N3TWORK - Client Engineer
           </h2>
           <h2 className="text-sm font-medium italic title-font pb-4 text-gray">
-            March 2022 - Present
+            March 2022 - May 2025
           </h2>
-            <img
-              className="mx-auto lg:w-3/4 mb-4 rounded-md"
-              src="./pictures/lhu.jpg"
-              alt="LHU"
-            />
-            <div className="text-xl lg:w-4/5 xl:w-2/3  mx-auto leading-relaxed">
-              <p>
-                I'm working on Legendary Heroes Unchained, a hero collector RPG for the web.
-              </p>
-              <br />
-              <p>
-                I'm involved in MVC-style UI development, rogue-like graph node rendering, 
-                procedural environment sprite placement, 
-                plus the myriad of challenges that come with making a game for Web. 
-              </p>
-            </div>
+          <div className="mx-auto lg:w-3/4 mb-4">
+            <Splide aria-label="LHU" className="mx-auto">
+              <SplideSlide>
+                <img src="./pictures/lhu.jpg" alt="Splash" className="mx-auto" />
+              </SplideSlide>
+              <SplideSlide>
+                <img src="./pictures/lhu2.png" alt="Hero Stats" className="mx-auto" />
+              </SplideSlide>
+              <SplideSlide>
+                <img src="./pictures/lhu3.png" alt="Map" className="mx-auto" />
+              </SplideSlide>
+              <SplideSlide>
+                <img src="./pictures/lhu4.png" alt="Boss" className="mx-auto" />
+              </SplideSlide>
+            </Splide>
+          </div>
+          <div className="text-xl lg:w-4/5 xl:w-2/3  mx-auto leading-relaxed">
+            <p>
+              I worked on Legendary Heroes Unchained, a hero collector RPG for the web.
+            </p>
+            <br />
+            <p>
+              I was involved in MVC-style UI development, rogue-like graph node rendering,
+              procedural environment sprite placement,
+              plus the myriad of challenges that come with making a game for Web.
+            </p>
+          </div>
         </div>
 
         <div id="tetris" className="container py-8">

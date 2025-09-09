@@ -131,7 +131,6 @@ export const translations = [
   },
 ];
 
-
 export const artworks = [
   {
     name: "March",
