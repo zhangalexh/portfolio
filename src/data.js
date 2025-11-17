@@ -133,6 +133,11 @@ export const translations = [
 
 export const artworks = [
   {
+    name: "Reze",
+    type: "Landscape",
+    src: "./artworks/reze.png"
+  },
+  {
     name: "March",
     type: "Portrait",
     src: "./artworks/march.png"
