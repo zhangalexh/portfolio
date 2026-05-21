@@ -12,9 +12,9 @@ export default function NavBar() {
         <a href="#/art" className="py-2 hover:text-black">
           Art
         </a>
-        <a href="#/taiko" className="py-2 hover:text-black">
+        {/* <a href="#/taiko" className="py-2 hover:text-black">
           Taiko
-        </a>
+        </a> */}
         {/* <a href="/translation" className="py-2 hover:text-black">
           Translation
         </a> */}

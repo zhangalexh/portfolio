@@ -20,7 +20,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/art" element={<Art />} />
-          <Route path="/taiko" element={<Taiko />} />
+          {/* <Route path="/taiko" element={<Taiko />} /> */}
           <Route path="/translation" element={<Translation />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/modelling" element={<Modelling />} />
